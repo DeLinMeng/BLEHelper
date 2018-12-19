@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FE767C0E231B958B9DFB610 /* libPods-BLEHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0954867BA7ED2FCC85C06820 /* libPods-BLEHelper.a */; };
 		7B88EEAF1E025AC200CE0A66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EEAE1E025AC200CE0A66 /* main.m */; };
 		7B88EEB21E025AC200CE0A66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EEB11E025AC200CE0A66 /* AppDelegate.m */; };
 		7B88EEB51E025AC200CE0A66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EEB41E025AC200CE0A66 /* ViewController.m */; };
@@ -15,9 +16,9 @@
 		7B88EEBD1E025AC200CE0A66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B88EEBB1E025AC200CE0A66 /* LaunchScreen.storyboard */; };
 		7B88EEC81E025AC200CE0A66 /* BLEHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EEC71E025AC200CE0A66 /* BLEHelperTests.m */; };
 		7B88EED31E025AC200CE0A66 /* BLEHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EED21E025AC200CE0A66 /* BLEHelperUITests.m */; };
-		7B88EEE71E025AD000CE0A66 /* BlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EEE21E025AD000CE0A66 /* BlueToothManager.m */; };
-		7B88EEE81E025AD000CE0A66 /* DLMBlueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EEE41E025AD000CE0A66 /* DLMBlueTooth.m */; };
-		7B88EEE91E025AD000CE0A66 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B88EEE61E025AD000CE0A66 /* Tools.m */; };
+		D079CF8F21CA9D7700EFA91C /* DLMBlueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = D079CF8921CA9D7700EFA91C /* DLMBlueTooth.m */; };
+		D079CF9021CA9D7700EFA91C /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = D079CF8A21CA9D7700EFA91C /* Tools.m */; };
+		D079CF9121CA9D7700EFA91C /* BlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D079CF8C21CA9D7700EFA91C /* BlueToothManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0954867BA7ED2FCC85C06820 /* libPods-BLEHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BLEHelper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88EEAA1E025AC200CE0A66 /* BLEHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88EEAE1E025AC200CE0A66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7B88EEB01E025AC200CE0A66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,12 +56,14 @@
 		7B88EECE1E025AC200CE0A66 /* BLEHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B88EED21E025AC200CE0A66 /* BLEHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEHelperUITests.m; sourceTree = "<group>"; };
 		7B88EED41E025AC200CE0A66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B88EEE11E025AD000CE0A66 /* BlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothManager.h; sourceTree = "<group>"; };
-		7B88EEE21E025AD000CE0A66 /* BlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothManager.m; sourceTree = "<group>"; };
-		7B88EEE31E025AD000CE0A66 /* DLMBlueTooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMBlueTooth.h; sourceTree = "<group>"; };
-		7B88EEE41E025AD000CE0A66 /* DLMBlueTooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMBlueTooth.m; sourceTree = "<group>"; };
-		7B88EEE51E025AD000CE0A66 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
-		7B88EEE61E025AD000CE0A66 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		854356D6425B6CA188C9811D /* Pods-BLEHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLEHelper/Pods-BLEHelper.release.xcconfig"; sourceTree = "<group>"; };
+		87BFB1ECB72D04FE7FC67709 /* Pods-BLEHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLEHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLEHelper/Pods-BLEHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		D079CF8921CA9D7700EFA91C /* DLMBlueTooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMBlueTooth.m; sourceTree = "<group>"; };
+		D079CF8A21CA9D7700EFA91C /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		D079CF8B21CA9D7700EFA91C /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		D079CF8C21CA9D7700EFA91C /* BlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothManager.m; sourceTree = "<group>"; };
+		D079CF8D21CA9D7700EFA91C /* BlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothManager.h; sourceTree = "<group>"; };
+		D079CF8E21CA9D7700EFA91C /* DLMBlueTooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMBlueTooth.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE767C0E231B958B9DFB610 /* libPods-BLEHelper.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2445509960E99425634C01C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0954867BA7ED2FCC85C06820 /* libPods-BLEHelper.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B88EEA11E025AC200CE0A66 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +107,8 @@
 				7B88EEC61E025AC200CE0A66 /* BLEHelperTests */,
 				7B88EED11E025AC200CE0A66 /* BLEHelperUITests */,
 				7B88EEAB1E025AC200CE0A66 /* Products */,
+				9A55677B777C5E37B50BE4B5 /* Pods */,
+				2445509960E99425634C01C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +129,7 @@
 				7B88EEB11E025AC200CE0A66 /* AppDelegate.m */,
 				7B88EEB31E025AC200CE0A66 /* ViewController.h */,
 				7B88EEB41E025AC200CE0A66 /* ViewController.m */,
-				7B88EEE01E025AD000CE0A66 /* BLEManager */,
+				D079CF7F21CA9D3B00EFA91C /* DLBLEManager */,
 				7B88EEB61E025AC200CE0A66 /* Main.storyboard */,
 				7B88EEB91E025AC200CE0A66 /* Assets.xcassets */,
 				7B88EEBB1E025AC200CE0A66 /* LaunchScreen.storyboard */,
@@ -150,17 +165,26 @@
 			path = BLEHelperUITests;
 			sourceTree = "<group>";
 		};
-		7B88EEE01E025AD000CE0A66 /* BLEManager */ = {
+		9A55677B777C5E37B50BE4B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7B88EEE11E025AD000CE0A66 /* BlueToothManager.h */,
-				7B88EEE21E025AD000CE0A66 /* BlueToothManager.m */,
-				7B88EEE31E025AD000CE0A66 /* DLMBlueTooth.h */,
-				7B88EEE41E025AD000CE0A66 /* DLMBlueTooth.m */,
-				7B88EEE51E025AD000CE0A66 /* Tools.h */,
-				7B88EEE61E025AD000CE0A66 /* Tools.m */,
+				87BFB1ECB72D04FE7FC67709 /* Pods-BLEHelper.debug.xcconfig */,
+				854356D6425B6CA188C9811D /* Pods-BLEHelper.release.xcconfig */,
 			);
-			path = BLEManager;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D079CF7F21CA9D3B00EFA91C /* DLBLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				D079CF8D21CA9D7700EFA91C /* BlueToothManager.h */,
+				D079CF8C21CA9D7700EFA91C /* BlueToothManager.m */,
+				D079CF8E21CA9D7700EFA91C /* DLMBlueTooth.h */,
+				D079CF8921CA9D7700EFA91C /* DLMBlueTooth.m */,
+				D079CF8B21CA9D7700EFA91C /* Tools.h */,
+				D079CF8A21CA9D7700EFA91C /* Tools.m */,
+			);
+			path = DLBLEManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B88EED71E025AC200CE0A66 /* Build configuration list for PBXNativeTarget "BLEHelper" */;
 			buildPhases = (
+				28EBB8C08FE1BF73FEA56A0E /* [CP] Check Pods Manifest.lock */,
 				7B88EEA61E025AC200CE0A66 /* Sources */,
 				7B88EEA71E025AC200CE0A66 /* Frameworks */,
 				7B88EEA81E025AC200CE0A66 /* Resources */,
@@ -230,7 +255,7 @@
 				TargetAttributes = {
 					7B88EEA91E025AC200CE0A66 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = R5VZ6445Z8;
+						DevelopmentTeam = L8MRL9B64V;
 						ProvisioningStyle = Automatic;
 					};
 					7B88EEC21E025AC200CE0A66 = {
@@ -294,16 +319,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28EBB8C08FE1BF73FEA56A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLEHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B88EEA61E025AC200CE0A66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D079CF8F21CA9D7700EFA91C /* DLMBlueTooth.m in Sources */,
+				D079CF9021CA9D7700EFA91C /* Tools.m in Sources */,
 				7B88EEB51E025AC200CE0A66 /* ViewController.m in Sources */,
 				7B88EEB21E025AC200CE0A66 /* AppDelegate.m in Sources */,
-				7B88EEE81E025AD000CE0A66 /* DLMBlueTooth.m in Sources */,
-				7B88EEE91E025AD000CE0A66 /* Tools.m in Sources */,
-				7B88EEE71E025AD000CE0A66 /* BlueToothManager.m in Sources */,
+				D079CF9121CA9D7700EFA91C /* BlueToothManager.m in Sources */,
 				7B88EEAF1E025AC200CE0A66 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,9 +497,10 @@
 		};
 		7B88EED81E025AC200CE0A66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BFB1ECB72D04FE7FC67709 /* Pods-BLEHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R5VZ6445Z8;
+				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = BLEHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeLin.Meng.BLEHelper;
@@ -463,9 +510,10 @@
 		};
 		7B88EED91E025AC200CE0A66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854356D6425B6CA188C9811D /* Pods-BLEHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R5VZ6445Z8;
+				DEVELOPMENT_TEAM = L8MRL9B64V;
 				INFOPLIST_FILE = BLEHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DeLin.Meng.BLEHelper;
@@ -542,6 +590,7 @@
 				7B88EED91E025AC200CE0A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B88EEDA1E025AC200CE0A66 /* Build configuration list for PBXNativeTarget "BLEHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +599,7 @@
 				7B88EEDC1E025AC200CE0A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B88EEDD1E025AC200CE0A66 /* Build configuration list for PBXNativeTarget "BLEHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +608,7 @@
 				7B88EEDF1E025AC200CE0A66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

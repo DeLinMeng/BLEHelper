@@ -1,0 +1,18 @@
+def shared_pods
+    platform :ios, '9.0'
+#    pod 'Kingfisher','4.8.0'
+#    pod 'SnapKit'
+#    pod 'DZNEmptyDataSet'
+#    pod 'Kingfisher','4.8.0'
+#    pod 'HandyJSON','4.2.0'
+#    pod 'Eureka','4.2.0'
+#    pod 'Watchdog'
+#    pod 'GVRKit', '1.120.0'
+     pod 'AFNetworking'
+    
+end
+
+target 'BLEHelper' do
+    shared_pods
+
+end
